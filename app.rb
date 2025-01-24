@@ -1,6 +1,4 @@
-require_relative "data"
+require_relative "dataset"
 
-puts "hi"
-data_set = Data.new
-puts "hello"
+data_set = Dataset.new
 data_set.run

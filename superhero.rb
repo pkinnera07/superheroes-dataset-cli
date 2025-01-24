@@ -12,12 +12,12 @@ class Superhero
   end
 
   def to_s
-    "Name: #{@name}\n" +
-    "Real Name: #{@real_name}\n" +
-    "Key Abilities: #{@key_abilities}\n" +
-    "Origin Story: #{@origin_story}\n" +
-    "Team Affiliation: #{@team_affiliation}\n" +
-    "Notable Enemies: #{@notable_enemies}\n" +
-    "Weaknesses: #{@weaknesses}\n"
+    "NAME: #{@name}\n" +
+    "REAL NAME: #{@real_name}\n" +
+    "KEY ABILITIES: #{@key_abilities}\n" +
+    "ORIGIN STORY: #{@origin_story}\n" +
+    "TEAM AFFILIATION: #{@team_affiliation}\n" +
+    "NOTABLE ENEMIES: #{@notable_enemies}\n" +
+    "WEAKNESS: #{@weaknesses}\n"
   end
 end
